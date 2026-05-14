@@ -24,7 +24,7 @@ while run:
     #ゲームの実行
     game.run()
 
-    #イベントの取得
+    #イベントの取得.
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
